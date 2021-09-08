@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Montserrat&display=swap');
+
+.container {
+  width: 1680px;
+  height: 1536px;
+  margin: 0;
+  
+}
+
+.inner{
+  width: 1520px;
+  height: 796px;
+  margin: auto;
+  margin-top: 120px;
+  
+  
+}
+
+.title{
+  
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.72px;
+  text-align: left;
+  color: #000;
+}
+
+.total {
+  
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  
+}
+.profile {
+  width: 1480px;
+  margin: auto;
+  
+}
+
+.down-letter{
+  display: flex;
+  flex-direction: column;
+}
+
+.firstletter {
+  width: 493px;
+  height: 36px;
+  flex-grow: 0;
+  margin: 40px 0 24px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.36px;
+  text-align: left;
+  color: #000;
+}
+.secondletter{
+  width: 493px;
+  height: 90px;
+  flex-grow: 0;
+  margin: 24px 0;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.27px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.8);
+}
+.learn-more {
+  width: 493px;
+  height: 30px;
+  flex-grow: 0;
+  margin: 24px 0 0;
+  font-family: "Exo 2";
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.27px;
+  text-align: left;
+  color: #18a0fb;
+}
+
+.down-section{
+  width: 1680px;
+  height: 740px;
+  background-color: #fff;
+  
+}
+
+#unsplashImage {
+  width: 1680px;
+  height: 740px;
+  
+  filter:brightness(30%);
+  border: 1px solid #000;
+}
+
+
+.down-section {
+  position: relative;
+  
+  
+}
+.unsplash-text {
+  position: absolute; 
+  filter: brightness(100%);
+  top:30%;
+  left:5%;
+  text-align: center;
+  justify-content: center;
+}
+
+.unsplash-text h1{
+  
+  margin: 0 0 23px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.36px;
+  text-align: center;
+  color: #fff;
+}
+
+.unsplash-text p {
+  filter:brightness(70%);
+  flex-grow: 0;
+  margin-top: 23px;
+  margin-bottom: 50px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: -0.27px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+
+}
+
+.divider {
+    border:none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    filter:brightness(70%);
+
+}
+
+.unsplash-text span {
+  filter:brightness(70%);
+  flex-grow: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: -0.21px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+
+}
